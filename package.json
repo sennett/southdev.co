@@ -1,9 +1,12 @@
 {
-    "name": "southdev.co",
-    "version": "1.0.0",
-    "main": "src/index.html",
-    "license": "MIT",
-    "devDependencies": {
-        "parcel": "^2.0.0-beta.2"
-    }
+  "name": "southdev.co",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/* && node_modules/.bin/parcel build src/index.html --dist-dir dist",
+    "deploy": "cp dist/* ../sennett.github.io && cd ../sennett.github.io && git add --all && git commit -m 'new deploy' && git push -u origin master "
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
 }
