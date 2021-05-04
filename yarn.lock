@@ -3000,6 +3000,11 @@ fault@^1.0.0:
   dependencies:
     format "^0.2.0"
 
+file-type@^10.4.0:
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-10.11.0.tgz#2961d09e4675b9fb9a3ee6b69e9cd23f43fd1890"
+  integrity sha512-uzk64HRpUZyTGZtVuvrjP0FYxzQrBf4rojot6J65YMEbwBLB0CWm0CLojVpwpmFmxcE/lkvYICgfcGozbBq6rw==
+
 filesize@^6.1.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/filesize/-/filesize-6.3.0.tgz#dff53cfb3f104c9e422f346d53be8dbcc971bf11"
@@ -3080,6 +3085,11 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+
+fse@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/fse/-/fse-4.0.1.tgz#9e1db80203933cbe59ed75507f35adf2689ce1e9"
+  integrity sha512-5XLUrweQvJxSJKhBe3XjimHSJ2EUhYOG+K2tLQy8I9kp78Fa3CgUXqxAZWxE9+fsvnI5GVkHl4NDqbf1tSb93Q==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -4312,6 +4322,13 @@ pako@~1.0.5:
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
+parcel-plugin-inliner@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-inliner/-/parcel-plugin-inliner-1.0.16.tgz#0c7c3f71bcbc6bb45564a642104312b3da9ed72b"
+  integrity sha512-2HQUmGshACIPO2paraojM79sII1p3kkUQ6IfCVuiO0RyLYta2nQ4y2w/X1Y0RaL1txshJQj3QptCB+R9JEVmgQ==
+  dependencies:
+    posthtml-inline-assets "^3.1.0"
+
 parcel@^2.0.0-beta.2:
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.0.0-beta.2.tgz#0a58f0b810fe2199b35d7bf7a949906568222d75"
@@ -4832,6 +4849,14 @@ postcss@^8.0.5, postcss@^8.2.1:
     colorette "^1.2.2"
     nanoid "^3.1.22"
     source-map "^0.6.1"
+
+posthtml-inline-assets@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/posthtml-inline-assets/-/posthtml-inline-assets-3.1.0.tgz#a245e65c6a9999e7b38d893f3982f108d725a906"
+  integrity sha512-52VGs/FG8NNlzv04jZe1HBy5pQ+HWifbQpZN5q0tt6QNkgy3SZCutf4UZyM93uzYym71tKPCQkzAXN3XnRSTgA==
+  dependencies:
+    file-type "^10.4.0"
+    fse "^4.0.1"
 
 posthtml-parser@^0.6.0:
   version "0.6.0"

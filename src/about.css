@@ -1,0 +1,10 @@
+@import './common.css';
+
+.gutters {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.article__image {
+  width: 100%;
+}
