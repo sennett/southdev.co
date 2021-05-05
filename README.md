@@ -4,7 +4,8 @@ Todo:
 - [X] check domain
 - [X] optimise compass
 - [X] favicon
-- [X] about page
+- [ ] about page
+  - [X] add images
 - [ ] portfolio page
 - [ ] image optimisation
 - [ ] google indexing

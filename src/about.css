@@ -8,3 +8,41 @@
 .article__image {
   width: 100%;
 }
+
+.article__image-inline {
+  width: 50%;
+  margin: 1.5rem;
+}
+
+.article__image-inline--right {
+  float: right;
+  margin-right: 0;
+}
+
+.article__image-inline--left {
+  float: left;
+  margin-left: 0;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  top: 1.5em;
+}
+
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.75em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
