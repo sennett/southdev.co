@@ -7,6 +7,7 @@ Todo:
 - [X] about page
   - [X] add images
 - [ ] portfolio page
+- [ ] header
 - [ ] image optimisation
 - [ ] google indexing
 - [ ] google analytics

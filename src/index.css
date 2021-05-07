@@ -1,4 +1,4 @@
-@import './common.css';
+@import './styles/common.css';
 
 html, body {
   width: 100%;
@@ -42,4 +42,8 @@ body {
     .copy {
         flex-grow: 0;
     }
+}
+
+p:last-child {
+  margin-bottom: 0;
 }

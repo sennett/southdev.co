@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+  <link href="projects.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="gutters article">
+    <h1 class="article__title">Projects</h1>
+    <hr />
+    <div class="article__body">
+      <p>Here are a couple of recent projects.</p>
+      <h2>WISP outage notifications</h2>
+      <p class="article__tldr">TL; DR: A proof-of-concept webapp that notifies network engineers of an outage,
+        with a focus on customer communication and ease-of-use in the field.
+      </p>
+      <!-- <img class="article__decorative-image" src="./images/wisp-hire.png" /> -->
+      <img class="article__fullwidth-image" src="./images/wisp-hire-cropped.png" />
+      <p><span class="article__first-letter">T</span>ypically found in rural areas where fibre infrastructure is
+        expensive to install, WISPs provide internet
+        connectivity to homes and businesses, providing internet connectivty using arrays of dishes and antena as
+        opposed
+        to fibre-optic cable (aka "fibre" broadband).</p>
+
+      <p class="article__aside  article__aside--left">"WISP" - Wireless Internet Service Provider</p>
+      <p>Whilst making internet cheap(er) in remote locations, the over-the-air nature of the technology and reliance on
+        solar and wind power does mean that wireless networking infrastructure requires more active management than its
+        fibre counterpart. As with any service-oriented local business, when things do go down, proactivity is the
+        answer.
+        In the case of a WISP, by the time the customer is aware of the problem, engineering should already be aware,
+        proactively communicating, and working on a fix.
+      </p>
+
+      <p>
+        To this end, we worked together to develop a small real-time service that monitors the customer connectivity to
+        the WISP, and sends mobile notifications to the right people so that they can dig into the problem further.
+      </p>
+      <p>Here's how it works. When an outage is detected, the network engineer receives a notification:</p>
+      <img class="article__demo-image" src="images/wisp-outage-notification.png" />
+      <p>Tapping on the notification takes them to a page where they can find out more information. Ease of
+        communication here is
+        key, especially from a mobile device in the field, so we generated a ready-to-go message and
+        added the capability to create an SMS, call
+        the customer, or post the message to the WISP's Facebook support page. They can also click to go
+        directly to the customer service status in UNMS, the network management system used by the WISP.</p>
+      <img class="article__demo-image" src="images/wisp-outage.png" />
+      <p>When the service is fixed, we provide some additional information and a different template message.</p>
+      <img class="article__demo-image" src="images/wisp-recovery.png" />
+      <p>And the notification is updated:</p>
+      <img class="article__demo-image" src="images/wisp-recovery-notification.png" />
+
+      <p>
+
+        The
+        service could notify within seconds of detecting an outage. Internally, the tool was written using NodeJS backed
+        onto Heroku and Postgres, with RxJS doing the heavy lifting. A very thin frontend consisting of an index.html
+        and
+        a serviceworker provided push notifications via Chrome. There was no custom hardware required.
+      </p>
+      <img class="article__fullwidth-image" src="./images/wisp-old.png" />
+      <p>
+        Agile experiments like this are great. They cost little to get up and running, and carry no commitment if things
+        don't work out. And if things do work well then the ROI can be many, many times the spend. If you have an idea
+        for
+        your business you want to try, either focussed internally or targeting the wider market, get in touch.
+        hello@southdev.co</p>
+      <img class="article__fullwidth-image" src="./images/wisp-snow.png" />
+      <hr />
+      <h2>Personal project - evolving car</h2>
+    </div>
+  </div>
+</body>
+
+</html>
