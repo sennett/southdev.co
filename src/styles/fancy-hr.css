@@ -9,6 +9,7 @@ hr {
   text-align: center;
   position: relative;
   top: 1.5em;
+  clear: both;
 }
 
 hr:after {

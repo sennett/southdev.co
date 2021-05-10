@@ -2,6 +2,7 @@
 rm -rf dist/*
 node_modules/.bin/parcel build src/index.html --dist-dir dist
 cp static/* dist
+cp src/favicon.ico dist
 
 rm -rf ../sennett.github.io/*
 cp dist/* ../sennett.github.io

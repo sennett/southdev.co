@@ -16,6 +16,7 @@
 .article__decorative-image {
   width: 50%;
   margin: 1.5rem;
+  clear: both;
 }
 
 .article__decorative-image--right {

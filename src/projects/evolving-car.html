@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<module href="./src/partials/html-head.html">
+  <link href="../styles/common.css" rel="stylesheet">
+  <link href="../styles/gutters.css" rel="stylesheet">
+  <link href="../styles/article.css" rel="stylesheet">
+  <link href="../styles/fancy-hr.css" rel="stylesheet">
+</module>
+
+<body>
+  <div class="gutters article">
+    <h1 class="article__title">Evolving car</h1>
+    <div class="article__body">
+      <p class="article__tldr">TL; DR: An algorithm learns how to create a car
+        that can complete a track. See it running <a href="//sennett.github.io/car">here</a>.</p>
+      <img class="article__fullwidth-image" src="../images/evolving-car.png" />
+
+
+      <p><span class="article__first-letter">H</span>ere is a personal project combining a simple genetic evolutionary
+        algorithm with a physics engine. The physics
+        engine is used to model a car on a track, and the algorithm then evolves a car that can complete the track. To
+        start, 20 cars are generated randomly and dropped on the track. Because they are generated randomly at the
+        beginning, they don't get very far at first.</p>
+
+      <p>Each car has a genome. Much like a (very basic) living creature, the genome controls how the car is built and
+        behaves. When all the cars stop moving along the track, the most successful genomes (representing the cars that
+        made it the furthest) are randomly mixed together. This creates 20 more genomes which are turned into cars, and
+        this new generation is run in the physics engine. Grandually, with each generation, the cars get better, and
+        eventually they complete the track.</p>
+
+      <p>As "machine learning" goes, it's about as simple as you can get. There are no sensors other than the distance
+        travelled by the car, there is no "brain" (no neural network) and the cars make no decisions whilst they're
+        running. But it's interesting. If you remove all the wheels, the cars turn into balls that roll, or they become
+        tall towers that fall over as far as they can. With more involved physics, or a concept of competition, it would
+        do all kinds of weird stuff. Maybe you have an idea for a game? 👉 hello@southdev.co</p>
+      <hr />
+    </div>
+  </div>
+</body>
+
+</html>
