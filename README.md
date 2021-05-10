@@ -6,6 +6,12 @@ Todo:
 - [X] favicon
 - [X] about page
   - [X] add images
+- [ ] rejig two focus on contracting
+  - content heirachy
+    - home page shows I am a contractor and lists a few basic technologies and capabilities
+      - link to CV
+      - link to about + projects section for capabilities
+      - contact
 - [ ] portfolio page
 - [ ] header
 - [ ] image optimisation

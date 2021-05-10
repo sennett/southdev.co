@@ -29,6 +29,20 @@ body {
     font-size: 2rem;
 }
 
+.target-market {
+  margin: 1em 0;
+}
+
+.target-market__solution {
+  padding-left: 2em;
+  margin: 0;
+}
+
+.target-market__solution li {
+  list-style-type: '👉';
+  padding-inline-start: 0.5em;
+}
+
 @media (max-width: 550px) {
     body {
         flex-direction: column;
