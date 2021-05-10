@@ -3000,6 +3000,11 @@ fault@^1.0.0:
   dependencies:
     format "^0.2.0"
 
+fclone@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
+  integrity sha1-EOhdo4v+p/xZk0HClu4ddyZu5kA=
+
 file-type@^10.4.0:
   version "10.11.0"
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-10.11.0.tgz#2961d09e4675b9fb9a3ee6b69e9cd23f43fd1890"
@@ -3615,6 +3620,11 @@ is-interactive@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-interactive/-/is-interactive-1.0.0.tgz#cea6e6ae5c870a7b0a0004070b7b587e0252912e"
   integrity sha512-2HvIEKRoqS62guEC+qBjpvRubdX910WCMuJTZ+I9yvqKU2/12eSL549HMwtabb4oupdj2sMP50k+XJfB/8JE6w==
 
+is-json@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/is-json/-/is-json-2.0.1.tgz#6be166d144828a131d686891b983df62c39491ff"
+  integrity sha1-a+Fm0USCihMdaGiRuYPfYsOUkf8=
+
 is-nan@^1.2.1:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/is-nan/-/is-nan-1.3.2.tgz#043a54adea31748b55b6cd4e09aadafa69bd9e1d"
@@ -3932,7 +3942,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.15, lodash@^4.17.19:
+lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -4850,6 +4860,15 @@ postcss@^8.0.5, postcss@^8.2.1:
     nanoid "^3.1.22"
     source-map "^0.6.1"
 
+posthtml-expressions@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.7.1.tgz#b62b47a9c2cc8216cbbb07d2e9e7b293f3c1f5bc"
+  integrity sha512-OtshMi4yJO/KAUSzLOdhWPaffPApY3lXZpJKzu4jVHfO7b8/a26Hgsl/cjC6PGtpyDEHbYChnV/b4DbIUoVREw==
+  dependencies:
+    fclone "^1.0.11"
+    posthtml-parser "^0.6.0"
+    posthtml-render "^1.4.0"
+
 posthtml-inline-assets@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/posthtml-inline-assets/-/posthtml-inline-assets-3.1.0.tgz#a245e65c6a9999e7b38d893f3982f108d725a906"
@@ -4857,6 +4876,22 @@ posthtml-inline-assets@^3.1.0:
   dependencies:
     file-type "^10.4.0"
     fse "^4.0.1"
+
+posthtml-match-helper@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/posthtml-match-helper/-/posthtml-match-helper-1.0.1.tgz#451253de8e5844a348e963ad5edd7769eb129513"
+  integrity sha1-RRJT3o5YRKNI6WOtXt13aesSlRM=
+
+posthtml-modules@^0.7.4:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/posthtml-modules/-/posthtml-modules-0.7.4.tgz#7e3bdc7dd0dfb676320f16a3ef407d525156bcba"
+  integrity sha512-gKAk6XZpiyz7591KYABP17tmfdckcGaynS4mTKZ2XoVSUK5UaNbYea9RYcn7YpumYw11oz8KWw7711Z2CUZ8NQ==
+  dependencies:
+    is-json "^2.0.1"
+    lodash "^4.17.21"
+    posthtml-expressions "^1.7.1"
+    posthtml-match-helper "^1.0.1"
+    posthtml-render "^1.4.0"
 
 posthtml-parser@^0.6.0:
   version "0.6.0"
