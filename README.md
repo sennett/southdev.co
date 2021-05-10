@@ -16,6 +16,7 @@ Todo:
 - [ ] header
 - [ ] image optimisation
 - [ ] link up and style all the email addresses
+- [ ] spell check
 - [ ] google indexing
 - [ ] google analytics
 

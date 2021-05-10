@@ -3,3 +3,4 @@ node_modules_backup
 .parcel-cache
 dist
 .DS_Store
+deployables

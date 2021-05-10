@@ -1,11 +1,11 @@
 #!/bin/bash
-rm -rf dist/*
-node_modules/.bin/parcel build src/index.html --dist-dir dist
-cp static/* dist
-cp src/favicon.ico dist
+rm -rf deployables/*
+node_modules/.bin/parcel build src/index.html --dist-dir deployables
+cp static/* deployables
+cp src/favicon.ico deployables
 
 rm -rf ../sennett.github.io/*
-cp dist/* ../sennett.github.io
+cp deployables/* ../sennett.github.io
 cd ../sennett.github.io
 git add --all
 git commit -m 'new deploy'
