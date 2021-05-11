@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<module href="./src/partials/html-head.html">
+  <style>
+    @import './styles/common.css';
+    @import './styles/gutters.css';
+    @import './styles/article.css';
+    @import './styles/fancy-hr.css';
+
+    .contact {
+      font-size: 2rem;
+      max-width: 20rem;
+      margin: 1em auto 0;
+    }
+  </style>
+</module>
+
+<body>
+  <div class="layout__menu">
+    <module href="/src/partials/menu.html" locals='{"selected": "contact"}'>
+    </module>
+  </div>
+  <div class="layout__content  layout__content--with-header">
+    <div class="gutters article">
+      <h1 class="article__title">Contact</h1>
+      <img src="images/dartmoor.jpeg" alt="Illustrative picture of Totnes" class="article__fullwidth-image">
+      <div class="article__body">
+        <div class="contact">
+          📧 &nbsp; hello@southdev.co<br />
+          ☎️ &nbsp; 01803 840 992
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

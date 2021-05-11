@@ -13,8 +13,9 @@ Todo:
       - ✅ link to about + projects section for capabilities
       - ✅ contact
 - [X] projects page
-- [ ] header
-- [ ] contact page
+- [X] header
+- [X] contact page
+- [ ] homepage
 - [ ] image optimisation
 - [ ] link up and style all the email addresses
 - [ ] spell check
