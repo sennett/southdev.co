@@ -1,0 +1,21 @@
+.menu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu__entry {
+  padding: 0 0.5em;
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+}
+
+.menu__selected--home .menu__entry--home,
+.menu__selected--projects .menu__entry--projects,
+.menu__selected--about .menu__entry--about,
+.menu__selected--contact .menu__entry--contact {
+  background-color: black;
+  color: white;
+}

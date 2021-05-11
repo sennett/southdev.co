@@ -6,91 +6,104 @@
 </module>
 
 <body>
-  <div class="gutters article">
-    <h1 class="article__title">About</h1>
-    <img src="images/totnes.jpeg" alt="Illustrative picture of Totnes" class="article__fullwidth-image">
-    <div class="article__body">
-      <p>
-        I'm Anthony, and I do web development. I've been working in tech for the last 10 years. Based in Totnes
-        (south
-        Devon), I provide services UK-wide.
-      </p>
-      <ul>
-        <li>
-          <p><strong>Webapps</strong>. Perhaps there is some piece of functionality you wish you had; something that you
-            know
-            would be better than
-            the
-            current solution. A basic webapp could be the answer.
+  <div class="layout__menu">
+    <module href="/src/partials/menu.html" locals='{"selected": "about"}'>
+    </module>
+  </div>
+  <div class="layout__content  layout__content--with-header">
+    <div class="gutters article">
+      <h1 class="article__title">About</h1>
+      <img src="images/totnes.jpeg" alt="Illustrative picture of Totnes" class="article__fullwidth-image">
+      <div class="article__body">
+        <p>
+          I'm Anthony, and I do web development. I've been working in tech for the last 10 years. Based in Totnes
+          (south
+          Devon), I provide services UK-wide.
+        </p>
+        <ul>
+          <li>
+            <p><strong>Webapps</strong>. Perhaps there is some piece of functionality you wish you had; something that
+              you
+              know
+              would be better than
+              the
+              current solution. A basic webapp could be the answer.
 
-          </p>
-          <p>I like a lean approach
-            and focus on results first, code second, to prove that the problem is not only worth solving, but
-            being
-            solved.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Integrations</strong> get data where it needs to be, and trigger
-            events.
-            With integrations you can acquire some ability that an external company provides.
-          </p>
-        </li>
-        <li>
-          <p><strong>Web APIs</strong> provide your company's capabilities to others in an automated way. Web APIs are
-            the standard by
-            which companies
-            exchange information, and you can charge for their usage.
-          </p>
-        </li>
-        <li>
-          <p><strong>Websites</strong> showcase what your company does.</p>
-        </li>
-        <li>
-          <p><strong>Automation</strong>, to reduce manual work and speed up internal processes.</p>
-        </li>
-      </ul>
-      <p>If your business needs something like this, please get in touch: <a
-          href=" mailto:hello@southdev.co"><strong>hello@southdev.co</strong></a>.</p>
-      </p>
-      <hr />
-      <h2>Experience</h2>
-      <p>
-        <img src="images/dowtk.svg" class="article__decorative-image article__decorative-image--left" />
-        From 2019 - 2020, at <a href="https://www.dayoutwiththekids.co.uk/" target="_blank">Day Out With The Kids</a>,
-        we migrated our platform from an older Umbraco-based system to a new modern web-stack,
-        to
-        enable in-house product developement. Here I learned about NodeJS, monitoring, performance tuning, and Heroku.
-      </p>
-      <p>
-        <img src="images/typeform.png" class="article__decorative-image  article__decorative-image--right" />
-        From 2014 - 2019 I was with <a href="https://www.typeform.com/" target="_blank">Typeform</a> in Barcelona. I was
-        a web developer,
-        technical product manager, and program manager as the company
-        grew from 12 to 180 employees. Here
-        I
-        learned about the world of front-end, people management, value delivery, talking to other areas of the business,
-        and scaling a company.
-      </p>
-      <p>
-        <img src="images/englighten.png" class="article__decorative-image article__decorative-image--left" />
-        From 2010 - 2014 I was with with <a href="https://www.enlighten.co.nz/" target="_blank">Enlighten Designs</a> in
-        New Zealand I worked with
-        the farm automation and genetics industry, contributing to
-        an
-        effort to migrate a product to the web using a service-oriented architecture, and helped a large energy supplier
-        trade their energy on the New Zealand energy market. Here I learned about distributed architectures, CI/CD, unit
-        tests, and good team dynamics.
-      </p>
-      <p>
-        Full CV available on request.
-      </p>
-      <p>
-        Overall, I'm looking to work with companies motivated to experiment and make life easier. If this sounds
-        interesting, please send me an email: <a href="mailto:hello@southdev.co"><strong>hello@southdev.co</strong></a>.
-        <!--You can also look at some recent projects if you wish-->
-      </p>
+            </p>
+            <p>I like a lean approach
+              and focus on results first, code second, to prove that the problem is not only worth solving, but
+              being
+              solved.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Integrations</strong> get data where it needs to be, and trigger
+              events.
+              With integrations you can acquire some ability that an external company provides.
+            </p>
+          </li>
+          <li>
+            <p><strong>Web APIs</strong> provide your company's capabilities to others in an automated way. Web APIs are
+              the standard by
+              which companies
+              exchange information, and you can charge for their usage.
+            </p>
+          </li>
+          <li>
+            <p><strong>Websites</strong> showcase what your company does.</p>
+          </li>
+          <li>
+            <p><strong>Automation</strong>, to reduce manual work and speed up internal processes.</p>
+          </li>
+        </ul>
+        <p>If your business needs something like this, please get in touch: <a
+            href=" mailto:hello@southdev.co"><strong>hello@southdev.co</strong></a>.</p>
+        </p>
+        <hr />
+        <h2>Experience</h2>
+        <p>
+          <img src="images/dowtk.svg" class="article__decorative-image article__decorative-image--left" />
+          From 2019 - 2020, at <a href="https://www.dayoutwiththekids.co.uk/" target="_blank">Day Out With The Kids</a>,
+          we migrated our platform from an older Umbraco-based system to a new modern web-stack,
+          to
+          enable in-house product developement. Here I learned about NodeJS, monitoring, performance tuning, and Heroku.
+        </p>
+        <p>
+          <img src="images/typeform.png" class="article__decorative-image  article__decorative-image--right" />
+          From 2014 - 2019 I was with <a href="https://www.typeform.com/" target="_blank">Typeform</a> in Barcelona. I
+          was
+          a web developer,
+          technical product manager, and program manager as the company
+          grew from 12 to 180 employees. Here
+          I
+          learned about the world of front-end, people management, value delivery, talking to other areas of the
+          business,
+          and scaling a company.
+        </p>
+        <p>
+          <img src="images/englighten.png" class="article__decorative-image article__decorative-image--left" />
+          From 2010 - 2014 I was with with <a href="https://www.enlighten.co.nz/" target="_blank">Enlighten Designs</a>
+          in
+          New Zealand I worked with
+          the farm automation and genetics industry, contributing to
+          an
+          effort to migrate a product to the web using a service-oriented architecture, and helped a large energy
+          supplier
+          trade their energy on the New Zealand energy market. Here I learned about distributed architectures, CI/CD,
+          unit
+          tests, and good team dynamics.
+        </p>
+        <p>
+          Full CV available on request.
+        </p>
+        <p>
+          Overall, I'm looking to work with companies motivated to experiment and make life easier. If this sounds
+          interesting, please send me an email: <a
+            href="mailto:hello@southdev.co"><strong>hello@southdev.co</strong></a>.
+          <!--You can also look at some recent projects if you wish-->
+        </p>
+      </div>
     </div>
   </div>
 </body>

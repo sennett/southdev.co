@@ -14,6 +14,7 @@ Todo:
       - ✅ contact
 - [X] projects page
 - [ ] header
+- [ ] contact page
 - [ ] image optimisation
 - [ ] link up and style all the email addresses
 - [ ] spell check
